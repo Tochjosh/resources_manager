@@ -19,6 +19,8 @@ def email_parser(email):
                   }
         return record
     else:
-        return check_email
+        return "invalid email format"
+
+print(email_parser("+yuhg+t@gmail.net"))
 
 
